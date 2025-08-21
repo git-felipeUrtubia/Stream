@@ -59,9 +59,11 @@ export const Carrusel = () => {
     return (
 
         <div className='carrusel-root'>
-
+            <div className='title-movies'>
+                <h2>Peliculas</h2>
+            </div>
             <div className="carrusel uno">
-                <button onClick={ () => {moveLeft(1);} }>
+                <button className='btn-left' onClick={ () => {moveLeft(1);} }>
                     <span>
                         <ArrowBack className="icon"/>
                     </span>
@@ -76,15 +78,19 @@ export const Carrusel = () => {
                         <div className="content uno"><img src={image} alt="" /></div>
                     </div>
                 </div>
-                <button onClick={ () => {moveRight(1);} }>
+                <button className='btn-right' onClick={ () => {moveRight(1);} }>
                     <span>
                         <ArrowForward className="icon"/>    
                     </span>
                 </button>
             </div>
 
+            <div className='title-movies'>
+                <h2>Series</h2>
+            </div>
+
             <div className="carrusel dos">
-                <button onClick={ () => {moveLeft(2);} }>
+                <button className='btn-left' onClick={ () => {moveLeft(2);} }>
                     <span>
                         <ArrowBack className="icon"/>
                     </span>
@@ -99,15 +105,19 @@ export const Carrusel = () => {
                         <div className="content dos"><img src={image} alt="" /></div>
                     </div>
                 </div>
-                <button onClick={ () => {moveRight(2);} }>
+                <button className='btn-right' onClick={ () => {moveRight(2);} }>
                     <span>
                         <ArrowForward className="icon"/>    
                     </span>
                 </button>
             </div>
 
+            <div className='title-movies'>
+                <h2>Animados</h2>
+            </div>
+
             <div className="carrusel tres">
-                <button onClick={ () => {moveLeft(3);} }>
+                <button className='btn-left' onClick={ () => {moveLeft(3);} }>
                     <span>
                         <ArrowBack className="icon"/>
                     </span>
@@ -122,7 +132,7 @@ export const Carrusel = () => {
                         <div className="content tres"><img src={image} alt="" /></div>
                     </div>
                 </div>
-                <button onClick={ () => {moveRight(3);} }>
+                <button className='btn-right' onClick={ () => {moveRight(3);} }>
                     <span>
                         <ArrowForward className="icon"/>    
                     </span>

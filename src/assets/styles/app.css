@@ -6,7 +6,7 @@ body {
     background: linear-gradient(180deg,
     rgb(102, 5, 5) 0%,
     rgb(37, 4, 4) 38%,
-    rgb(0, 0, 0) 100%);
+    rgb(15, 15, 15) 100%);
 }
 
 #root {
