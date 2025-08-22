@@ -8,7 +8,7 @@ import image from '../assets/img/image.jpg';
 export const Carrusel = () => {
 
     const [x1, setX1] = useState(0);
-    const [x2, setX2] = useState(0);
+    const [x2, setX2] = useState(0); 
     const [x3, setX3] = useState(0);
     
     const movie = "/video";
@@ -54,6 +54,10 @@ export const Carrusel = () => {
     const overflowHidden = () => {
         document.documentElement.style.setProperty("--overflow", "hidden");
     }
+
+    const NavMovie = () => {
+        window.location.href = "/video";
+    }
     
 
     return (
@@ -70,6 +74,10 @@ export const Carrusel = () => {
                 </button>
                 <div className='box-runing'>
                     <div className="contain-content uno">
+                        <div className="content uno" onClick={ NavMovie } ><img src={image} alt="" /></div>
+                        <div className="content uno"><img src={image} alt="" /></div>
+                        <div className="content uno"><img src={image} alt="" /></div>
+                        <div className="content uno"><img src={image} alt="" /></div>
                         <div className="content uno"><img src={image} alt="" /></div>
                         <div className="content uno"><img src={image} alt="" /></div>
                         <div className="content uno"><img src={image} alt="" /></div>
@@ -103,6 +111,11 @@ export const Carrusel = () => {
                         <div className="content dos"><img src={image} alt="" /></div>
                         <div className="content dos"><img src={image} alt="" /></div>
                         <div className="content dos"><img src={image} alt="" /></div>
+                        <div className="content dos"><img src={image} alt="" /></div>
+                        <div className="content dos"><img src={image} alt="" /></div>
+                        <div className="content dos"><img src={image} alt="" /></div>
+                        <div className="content dos"><img src={image} alt="" /></div>
+                        <div className="content dos"><img src={image} alt="" /></div>
                     </div>
                 </div>
                 <button className='btn-right' onClick={ () => {moveRight(2);} }>
@@ -124,6 +137,11 @@ export const Carrusel = () => {
                 </button>
                 <div className='box-runing'>
                     <div className="contain-content tres">
+                        <div className="content tres"><img src={image} alt="" /></div>
+                        <div className="content tres"><img src={image} alt="" /></div>
+                        <div className="content tres"><img src={image} alt="" /></div>
+                        <div className="content tres"><img src={image} alt="" /></div>
+                        <div className="content tres"><img src={image} alt="" /></div>
                         <div className="content tres"><img src={image} alt="" /></div>
                         <div className="content tres"><img src={image} alt="" /></div>
                         <div className="content tres"><img src={image} alt="" /></div>
