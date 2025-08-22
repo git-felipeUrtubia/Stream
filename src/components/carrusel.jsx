@@ -3,6 +3,7 @@ import '../assets/styles/carrusel.css';
 import ArrowBack from '../assets/icons/chevron-back-outline.svg?react';
 import ArrowForward from '../assets/icons/chevron-forward-outline.svg?react';
 import image from '../assets/img/image.jpg';
+import rapido_y_furiosos_1 from '../assets/posters/rapidos_y_furiosos_1.png';
 
 
 export const Carrusel = () => {
@@ -74,7 +75,7 @@ export const Carrusel = () => {
                 </button>
                 <div className='box-runing'>
                     <div className="contain-content uno">
-                        <div className="content uno" onClick={ NavMovie } ><img src={image} alt="" /></div>
+                        <div className="content uno" onClick={ NavMovie } ><img src={rapido_y_furiosos_1} alt="" /></div>
                         <div className="content uno"><img src={image} alt="" /></div>
                         <div className="content uno"><img src={image} alt="" /></div>
                         <div className="content uno"><img src={image} alt="" /></div>
