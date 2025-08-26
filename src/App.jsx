@@ -1,6 +1,6 @@
 import { Header } from "./components/home/header.jsx";
-import { Carrusel } from "./components/home/carrusel.jsx";
-import "./assets/styles/app.css"
+import { Body } from "./components/home/body.jsx";
+import "./assets/styles/home/app.css";
 
 function App() {
 
@@ -9,8 +9,9 @@ function App() {
       <section className="sec-header">
         <Header />
       </section>
-      <section className="sec-carrusel">
-        <Carrusel />
+      <div className='solo-separacion'></div>
+      <section className="sec-body">
+        <Body />
       </section>
     </>
   )

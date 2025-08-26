@@ -12,17 +12,18 @@ body {
 .sec-header {
     padding: 0;
     margin: 0;
-    width: 100%;
-    height: 25rem;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    align-items: center;
+    max-width: 100%;
 } 
 
-.sec-carrusel {
+.sec-body {
     padding: 0;
     margin: 0;
     max-width: 100%;
+}
+
+.solo-separacion {
+    width: 100%;
+    height: 13rem;
+    background-color: transparent;
 }
 
