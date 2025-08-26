@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+.carrusel-root {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: start;
+}
+
+.title-movies {
+    position: relative;
+    width: 100%;
+    height: 1.4rem;
+} 
+
+.title-movies h2 {
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 5.5%;
+    font-family: 'Inter', sans-serif;
+}
+
+.carrusel {
+    width: 100%;
+    height: 19rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    all: unset;
+    width: 4rem;
+    height: 19rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s ease;
+}
+
+.btn-left {
+    border-radius: 0 .3rem .3rem 0;
+}
+
+.btn-right {
+    border-radius: .3rem 0 0 .3rem;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.596);   
+    cursor: pointer;
+}
+
+.box-runing {
+    width: 100%;
+    height: 19rem;
+    overflow-x: hidden;
+}
+
+.contain-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    transition: .5s ease;
+}
+
+.contain-content.uno {
+    transform: translateX(var(--x1, 0));
+}
+.contain-content.dos {
+    transform: translateX(var(--x2, 0));
+}
+.contain-content.tres {
+    transform: translateX(var(--x3, 0));
+}
+
+.content {
+    background-color: transparent;
+    width: 11rem;
+    height: 16rem;
+    margin: 0 1rem 0 1rem;
+    flex-shrink: 0;
+    transition: .5s ease;
+    border: 1px;
+    border-radius: .3rem;
+}
+
+.content:hover {
+    transform: scale(1.15);
+    cursor: pointer;
+}
+
+.content img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill; 
+  object-position: center;
+  border: 1px;
+  border-radius: .3rem;
+}
+
+.icon {
+    width: 2rem;
+    height: 2rem;
+    color: white;
+}
+
+
