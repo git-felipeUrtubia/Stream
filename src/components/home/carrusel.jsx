@@ -4,6 +4,17 @@ import ArrowBack from '../../assets/icons/chevron-back-outline.svg?react';
 import ArrowForward from '../../assets/icons/chevron-forward-outline.svg?react';
 import image from '../../assets/img/image.jpg';
 import rapido_y_furiosos_1 from '../../assets/posters/rapidos_y_furiosos_1.png';
+import harry_potter_la_piedra_filosofal from '../../assets/posters/harry_potter_la_piedra_filosofal.jpg';
+import harry_potter_y_la_camara_secreta from '../../assets/posters/harry_potter_y_la_camara_secreta.jpg';
+import harry_potter_el_prisionero_de_azkaban from '../../assets/posters/harry_potter_el_prisionero_de_azkaban.jpg';
+import harry_potter_el_caliz_de_fuego from '../../assets/posters/harry_potter_el_caliz_de_fuego.jpg';
+import harry_potter_la_orden_del_fenix from '../../assets/posters/harry_potter_la_orden_del_fenix.jpg';
+import harry_potter_el_misterio_del_principe from '../../assets/posters/harry_potter_el_misterio_del_principe.jpg';
+import harry_potter_las_reliquias_de_la_muerte_parte_1 from '../../assets/posters/harry_potter_las_reliquias_de_la_muerte_parte_1.jpg';
+import harry_potter_las_reliquias_de_la_muerte_parte_2 from '../../assets/posters/harry_potter_las_reliquias_de_la_muerte_parte_2.jpg';
+
+
+
 
 
 export const Carrusel = () => {
@@ -75,16 +86,16 @@ export const Carrusel = () => {
                 </button>
                 <div className='box-runing'>
                     <div className="contain-content uno">
-                        <div className="content uno" onClick={ NavMovie } ><img src={rapido_y_furiosos_1} alt="" /></div>
-                        <div className="content uno"><img src={image} alt="" /></div>
-                        <div className="content uno"><img src={image} alt="" /></div>
-                        <div className="content uno"><img src={image} alt="" /></div>
-                        <div className="content uno"><img src={image} alt="" /></div>
-                        <div className="content uno"><img src={image} alt="" /></div>
-                        <div className="content uno"><img src={image} alt="" /></div>
-                        <div className="content uno"><img src={image} alt="" /></div>
-                        <div className="content uno"><img src={image} alt="" /></div>
-                        <div className="content uno"><img src={image} alt="" /></div>
+                        <div className="content uno"><img src={harry_potter_la_piedra_filosofal}/></div>
+                        <div className="content uno"><img src={harry_potter_y_la_camara_secreta}/></div>
+                        <div className="content uno"><img src={harry_potter_el_prisionero_de_azkaban}/></div>
+                        <div className="content uno"><img src={harry_potter_el_caliz_de_fuego}/></div>
+                        <div className="content uno"><img src={harry_potter_la_orden_del_fenix}/></div>
+                        <div className="content uno"><img src={harry_potter_el_misterio_del_principe}/></div>
+                        <div className="content uno"><img src={harry_potter_las_reliquias_de_la_muerte_parte_1}/></div>
+                        <div className="content uno"><img src={harry_potter_las_reliquias_de_la_muerte_parte_2}/></div>
+                        <div className="content uno" onClick={ NavMovie } ><img src={rapido_y_furiosos_1}/></div>
+
                     </div>
                 </div>
                 <button className='btn-right' onClick={ () => {moveRight(1);} }>
