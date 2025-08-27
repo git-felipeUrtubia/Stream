@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import '../../assets/styles/home/body.css';
 import ArrowBack from '../../assets/icons/chevron-back-outline.svg?react';
 import ArrowForward from '../../assets/icons/chevron-forward-outline.svg?react';
@@ -46,17 +47,15 @@ export const Body = () => {
         document.documentElement.style.setProperty("--overflow", "hidden");
     }
 
-    const NavMovie = () => {
-        window.location.href = "/video";
+    const nav = useNavigate();
+    const NavMovie = (id) => {
+        nav(`/video/${id}`);
     }
     
 
     return (
 
         <div className='carrusel-root'>
-            <div className='title-movies'>
-                <h2>Saga Harry Potter</h2>
-            </div>
             <div className="carrusel uno">
                 <button className='btn-left' onClick={ () => {moveLeft(1);} }>
                     <span>
@@ -65,8 +64,8 @@ export const Body = () => {
                 </button>
                 <div className='box-runing'>
                     <div className="contain-content uno">
-                        <div className="content uno"><img src={harry_potter_la_piedra_filosofal}/></div>
-                        <div className="content uno"><img src={harry_potter_y_la_camara_secreta}/></div>
+                        <div className="content uno" onClick={ ()=>{NavMovie(1)} }><img src={harry_potter_la_piedra_filosofal}/></div>
+                        <div className="content uno" onClick={ ()=>{NavMovie(2)} }><img src={harry_potter_y_la_camara_secreta}/></div>
                         <div className="content uno"><img src={harry_potter_el_prisionero_de_azkaban}/></div>
                         <div className="content uno"><img src={harry_potter_el_caliz_de_fuego}/></div>
                         <div className="content uno"><img src={harry_potter_la_orden_del_fenix}/></div>

@@ -9,7 +9,7 @@ createRoot(document.getElementById('root')).render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="/video" element={<Video />} />
+        <Route path="/video/:id" element={<Video />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>,

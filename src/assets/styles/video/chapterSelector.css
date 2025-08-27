@@ -32,20 +32,19 @@
 /* ------- Style Form ------- */
 
 .content-form-chapter {
-    width: 15rem;
+    width: 100%;
     height: auto;
     position: relative;
-    margin: 8px 0 8px 0;
+    margin: .5rem 0 .5rem 0;
     transition: .3s ease-in-out;
 }
 
 .content-form-chapter:hover {
-    transform: scale(1.05);
     cursor: pointer;
 }
 
 .btn-select {
-    width: inherit;
+    width: 15rem;
     height: 3rem;
     display: flex;
     justify-content: space-around;
@@ -74,14 +73,18 @@
 }
 
 .options {
-    width: inherit;
+    width: 15rem;
     height: auto;
     display: flex;
     justify-content: center;
     flex-direction: column;
     position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
     border-radius: 0 0 .25rem .25rem;
-    background-color: rgb(231, 231, 231);
+    background-color: rgb(216, 215, 215);
     gap: 1px;
     overflow: hidden;
     transition: .3s ease;

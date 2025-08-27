@@ -25,15 +25,60 @@
     object-fit: cover;
 }
 
-.content-title-video {
+.content-desc-video {
+    max-width: calc(90% - 2rem);
     width: 90%;
     height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 2rem;
     font-family: 'Roboto',sans-serif;
     font-size: 1.5rem;
     font-weight: 700;
     margin: .5rem 0 .5rem 0;
-    padding-left: .5rem;
+    padding: 1rem;
+    border-radius: .5rem;
     color: rgb(255, 255, 255);
+    background-color: rgb(48, 47, 48);
+}
+
+.content-poster-video {
+    width: 13rem;
+    height: 18rem;
+    flex-shrink: 0;
+    background-color: black;
+    border-radius: .5rem;
+}
+
+.card-video {
+    width: 100%;
+    background-color: rgb(20, 20, 20);
+    border-radius: .5rem;
+    box-shadow: .5rem .5rem .7rem rgba(0,0,0,.5);
+}
+
+.title-video {
+    width: auto;
+    height: auto;
+    padding: 1rem;
+    margin-left: .7rem;
+}
+
+.title-video p {
+    margin-left: .7rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.desc-movie {
+    width: calc(100% - 2rem);
+    height: fit-content;
+    margin: 0;
+    padding: 1rem;
+    font-size: 1.1rem;
+    font-weight: 400;
 }
 
 .sub-content-video {
