@@ -9,8 +9,8 @@ function App() {
       <section className="sec-header">
         <Header />
       </section>
-      <div className='solo-separacion'></div>
       <section className="sec-body">
+        <div className='solo-separacion'></div>
         <Body />
       </section>
     </>

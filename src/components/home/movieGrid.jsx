@@ -91,6 +91,56 @@ export const MovieGrid = () => {
                 <span className="content-text-movie">Title movie</span>
             </div>
 
+            <div className="content-movies-grid">
+                <div className="movies"><img src={image}/></div>
+                <span className="content-text-movie">Title movie</span>
+            </div>
+
+            <div className="content-movies-grid">
+                <div className="movies"><img src={image}/></div>
+                <span className="content-text-movie">Title movie</span>
+            </div>
+
+            <div className="content-movies-grid">
+                <div className="movies"><img src={image}/></div>
+                <span className="content-text-movie">Title movie</span>
+            </div>
+
+            <div className="content-movies-grid">
+                <div className="movies"><img src={image}/></div>
+                <span className="content-text-movie">Title movie</span>
+            </div>
+
+            <div className="content-movies-grid">
+                <div className="movies"><img src={image}/></div>
+                <span className="content-text-movie">Title movie</span>
+            </div>
+
+            <div className="content-movies-grid">
+                <div className="movies"><img src={image}/></div>
+                <span className="content-text-movie">Title movie</span>
+            </div>
+
+            <div className="content-movies-grid">
+                <div className="movies"><img src={image}/></div>
+                <span className="content-text-movie">Title movie</span>
+            </div>
+
+            <div className="content-movies-grid">
+                <div className="movies"><img src={image}/></div>
+                <span className="content-text-movie">Title movie</span>
+            </div>
+
+            <div className="content-movies-grid">
+                <div className="movies"><img src={image}/></div>
+                <span className="content-text-movie">Title movie</span>
+            </div>
+
+            <div className="content-movies-grid">
+                <div className="movies"><img src={image}/></div>
+                <span className="content-text-movie">Title movie</span>
+            </div>
+
         </section>
     )
 }

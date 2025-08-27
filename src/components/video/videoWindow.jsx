@@ -13,6 +13,7 @@ export const Video = () => {
             "name": "Harry Potter y la piedra filosofal",
             "genero": "Aventura, Fantasia",
             "anio": 2009,
+            "duracion": "02:39:00",
             "url": "https://my-movie.b-cdn.net/harry_potter_el_prisionero_de_azkaban.mp4"
         },
         {
@@ -20,6 +21,7 @@ export const Video = () => {
             "name": "Harry Potter y la camara secreta",
             "genero": "Aventura, Fantasia",
             "anio": 2009,
+            "duracion": "02:39:00",
             "url": "https://my-movie.b-cdn.net/harry_potter_la_camara_secreta.mp4"
         },
         {
@@ -27,6 +29,7 @@ export const Video = () => {
             "name": "Rapido y Furioso 1",
             "genero": "Accion, Carrera",
             "anio": 2009,
+            "duracion": "02:39:00",
             "url": "https://my-movie.b-cdn.net/Rapidos%20Y%20Furiosos%201.mp4" 
         }
     ]
@@ -37,12 +40,14 @@ export const Video = () => {
     let title = null;
     let genero = null;
     let anio = null;
+    let duracion = null;
     for(let i = 0; i < movies.length; i++) {
         if(movies[i].id == idMovie) {
             url = movies[i].url;
             title = movies[i].name;
             genero = movies[i].genero;
             anio = movies[i].anio;
+            duracion = movies[i].duracion;
         }
     }
 
@@ -58,7 +63,7 @@ export const Video = () => {
                     <div className='title-video'>
                         <span>{title}</span>
                         <p>Género: {genero}</p>
-                        <p>Año: {anio}</p>
+                        <p>Año: {anio} / {duracion}</p>
                     </div>
                     <div className='desc-movie'>
                         <p>

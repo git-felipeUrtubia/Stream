@@ -33,6 +33,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 2rem;
     font-family: 'Roboto',sans-serif;
     font-size: 1.5rem;
@@ -47,13 +48,21 @@
 .content-poster-video {
     width: 13rem;
     height: 18rem;
-    flex-shrink: 0;
     background-color: black;
     border-radius: .5rem;
 }
 
-.card-video {
+.content-poster-video img {
     width: 100%;
+    height: 100%;
+    object-fit: fill; 
+    object-position: center;
+    border: 1px;
+    border-radius: .3rem;
+}
+
+.card-video {
+    width: 55rem;
     background-color: rgb(20, 20, 20);
     border-radius: .5rem;
     box-shadow: .5rem .5rem .7rem rgba(0,0,0,.5);
