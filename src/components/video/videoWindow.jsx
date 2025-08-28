@@ -1,12 +1,11 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import '../../assets/styles/video/videoWindow.css';
 import { ChapterSelector } from "./chapterSelector.jsx";
 import { useParams } from 'react-router-dom';
 import movies from '../../assets/data/movies.json';
 
-
 export const Video = () => {
-    const [visible, setVisible] = useState(true);    
+    const [visible, setVisible] = useState(false);    
 
     const { id } = useParams();
     const idMovie = parseInt(id, 10);
@@ -15,6 +14,7 @@ export const Video = () => {
     let genero = null;
     let anio = null;
     let duracion = null;
+    let image = null;
     for(let i = 0; i < movies.length; i++) {
         if(movies[i].id == idMovie) {
             url = movies[i].url;
@@ -22,6 +22,14 @@ export const Video = () => {
             genero = movies[i].genero;
             anio = movies[i].anio;
             duracion = movies[i].duracion;
+            image = movies[i].poster;
+            
+            useEffect(() => {
+                if(movies[i].tipo == "serie") {
+                    setVisible(true);
+                }
+            })
+
         }
     }
 
@@ -32,7 +40,9 @@ export const Video = () => {
                 <video src={url} controls></video>
             </div>
             <div className="content-desc-video">
-                <div className='content-poster-video'></div>
+                <div className='content-poster-video'>
+                    <img src={image}/>
+                </div>
                 <div className='card-video'>
                     <div className='title-video'>
                         <span>{title}</span>

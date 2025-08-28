@@ -6,6 +6,7 @@
         "anio": 2009,
         "duracion": "02:39:00",
         "tipo": "pelicula",
+        "poster": "/src/assets/posters/harry_potter_la_piedra_filosofal.jpg",
         "url": "https://my-movie.b-cdn.net/harry_potter_el_prisionero_de_azkaban.mp4"
     },
     {
@@ -15,6 +16,7 @@
         "anio": 2009,
         "duracion": "02:39:00",
         "tipo": "pelicula",
+        "poster": "/src/assets/posters/harry_potter_y_la_camara_secreta.jpg",
         "url": "https://my-movie.b-cdn.net/harry_potter_la_camara_secreta.mp4"
     },
     {
@@ -24,6 +26,19 @@
         "anio": 2009,
         "duracion": "02:39:00",
         "tipo": "pelicula",
+        "poster": "/src/assets/posters/rapidos_y_furiosos_1.png",
         "url": "https://my-movie.b-cdn.net/Rapidos%20Y%20Furiosos%201.mp4" 
+    },
+    {
+        "id": 6,
+        "name": "Tokyo Revengers",
+        "genero": "Accion, Drama",
+        "anio": 2009,
+        "duracion": "00:25:38",
+        "tipo": "serie",
+        "temporadas": 3,
+        "episodios": 64,
+        "poster": "/src/assets/posters/tokyo_revengers.jpg",
+        "url": null
     }
 ]
