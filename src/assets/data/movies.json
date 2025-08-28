@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "name": "Harry Potter y la piedra filosofal",
+        "genero": "Aventura, Fantasia",
+        "anio": 2009,
+        "duracion": "02:39:00",
+        "tipo": "pelicula",
+        "url": "https://my-movie.b-cdn.net/harry_potter_el_prisionero_de_azkaban.mp4"
+    },
+    {
+        "id": 2,
+        "name": "Harry Potter y la camara secreta",
+        "genero": "Aventura, Fantasia",
+        "anio": 2009,
+        "duracion": "02:39:00",
+        "tipo": "pelicula",
+        "url": "https://my-movie.b-cdn.net/harry_potter_la_camara_secreta.mp4"
+    },
+    {
+        "id": 5,
+        "name": "Rapido y Furioso 1",
+        "genero": "Accion, Carrera",
+        "anio": 2009,
+        "duracion": "02:39:00",
+        "tipo": "pelicula",
+        "url": "https://my-movie.b-cdn.net/Rapidos%20Y%20Furiosos%201.mp4" 
+    }
+]

@@ -2,37 +2,11 @@ import { useState } from 'react';
 import '../../assets/styles/video/videoWindow.css';
 import { ChapterSelector } from "./chapterSelector.jsx";
 import { useParams } from 'react-router-dom';
+import movies from '../../assets/data/movies.json';
 
 
 export const Video = () => {
     const [visible, setVisible] = useState(true);    
-
-    const movies = [
-        {
-            "id": 1,
-            "name": "Harry Potter y la piedra filosofal",
-            "genero": "Aventura, Fantasia",
-            "anio": 2009,
-            "duracion": "02:39:00",
-            "url": "https://my-movie.b-cdn.net/harry_potter_el_prisionero_de_azkaban.mp4"
-        },
-        {
-            "id": 2,
-            "name": "Harry Potter y la camara secreta",
-            "genero": "Aventura, Fantasia",
-            "anio": 2009,
-            "duracion": "02:39:00",
-            "url": "https://my-movie.b-cdn.net/harry_potter_la_camara_secreta.mp4"
-        },
-        {
-            "id": 5,
-            "name": "Rapido y Furioso 1",
-            "genero": "Accion, Carrera",
-            "anio": 2009,
-            "duracion": "02:39:00",
-            "url": "https://my-movie.b-cdn.net/Rapidos%20Y%20Furiosos%201.mp4" 
-        }
-    ]
 
     const { id } = useParams();
     const idMovie = parseInt(id, 10);
