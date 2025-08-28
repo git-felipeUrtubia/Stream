@@ -15,7 +15,7 @@ function App() {
       <section className="sec-header">
         <Header />
       </section>
-      <section className="sec-body">
+      <main className="sec-body">
         <div className='image-background'>
           <div className="img-fade">
             <img src={image1}/>
@@ -24,7 +24,7 @@ function App() {
           </div>
         </div>
         <Body />
-      </section>
+      </main>
     </>
   )
 }

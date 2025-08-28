@@ -1,11 +1,18 @@
 import { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import '../../assets/styles/video/videoWindow.css';
 import { ChapterSelector } from "./chapterSelector.jsx";
 import { useParams } from 'react-router-dom';
 import movies from '../../assets/data/movies.json';
+import ArrowBack from '../../assets/icons/arrow-left-circle.svg?react';
 
 export const Video = () => {
-    const [visible, setVisible] = useState(false);    
+    const [visible, setVisible] = useState(false);   
+    
+    const nav = useNavigate();
+    const handleClickBack = () => {
+        nav('/');
+    }
 
     const { id } = useParams();
     const idMovie = parseInt(id, 10);
@@ -37,6 +44,9 @@ export const Video = () => {
 
         <section className="video-page">
             <div className="content-video">
+                <button className='btn-volver' onClick={ handleClickBack }>
+                    <ArrowBack className="icon-btn-volver"/>
+                </button>
                 <video src={url} controls></video>
             </div>
             <div className="content-desc-video">

@@ -58,7 +58,7 @@ export const Body = () => {
         <div className='body-root'>
             <div className='carrusel-root'>
                 <div className="carrusel">
-                    <button className='btn-left' onClick={ () => {moveLeft(1);} }>
+                    <button className='btn-carrusel btn-left' onClick={ () => {moveLeft(1);} }>
                         <span>
                             <ArrowBack className="icon"/>
                         </span>
@@ -75,7 +75,7 @@ export const Body = () => {
                             <div className="content uno"><img src={harry_potter_las_reliquias_de_la_muerte_parte_2}/></div>
                         </div>
                     </div>
-                    <button className='btn-right' onClick={ () => {moveRight(1);} }>
+                    <button className='btn-carrusel btn-right' onClick={ () => {moveRight(1);} }>
                         <span>
                             <ArrowForward className="icon"/>    
                         </span>

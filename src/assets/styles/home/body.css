@@ -34,7 +34,7 @@
     align-items: center;
 }
 
-button {
+.btn-carrusel {
     all: unset;
     width: 4rem;
     height: 19rem;
@@ -52,7 +52,7 @@ button {
     border-radius: .3rem 0 0 .3rem;
 }
 
-button:hover {
+.btn-carrusel:hover { 
     background-color: rgba(0, 0, 0, 0.596);   
     cursor: pointer;
 }
@@ -109,7 +109,7 @@ button:hover {
 .galery-movies {
     width: 100%;
     height: auto;
-    margin: .5rem 0 .5rem 0;
+    margin: .5rem 0 0 0;
 }
 
 
