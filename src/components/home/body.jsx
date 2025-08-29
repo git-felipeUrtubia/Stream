@@ -67,12 +67,12 @@ export const Body = () => {
                         <div className="contain-content uno">
                             <div className="content uno" onClick={ ()=>{NavMovie(1)} }><img src={harry_potter_la_piedra_filosofal}/></div>
                             <div className="content uno" onClick={ ()=>{NavMovie(2)} }><img src={harry_potter_y_la_camara_secreta}/></div>
-                            <div className="content uno"><img src={harry_potter_el_prisionero_de_azkaban}/></div>
-                            <div className="content uno"><img src={harry_potter_el_caliz_de_fuego}/></div>
-                            <div className="content uno"><img src={harry_potter_la_orden_del_fenix}/></div>
-                            <div className="content uno"><img src={harry_potter_el_misterio_del_principe}/></div>
-                            <div className="content uno"><img src={harry_potter_las_reliquias_de_la_muerte_parte_1}/></div>
-                            <div className="content uno"><img src={harry_potter_las_reliquias_de_la_muerte_parte_2}/></div>
+                            <div className="content uno" onClick={ ()=>{NavMovie(3)} }><img src={harry_potter_el_prisionero_de_azkaban}/></div>
+                            <div className="content uno" onClick={ ()=>{NavMovie(4)} }><img src={harry_potter_el_caliz_de_fuego}/></div>
+                            <div className="content uno" onClick={ ()=>{NavMovie(5)} }><img src={harry_potter_la_orden_del_fenix}/></div>
+                            <div className="content uno" onClick={ ()=>{NavMovie(6)} }><img src={harry_potter_el_misterio_del_principe}/></div>
+                            <div className="content uno" onClick={ ()=>{NavMovie(7)} }><img src={harry_potter_las_reliquias_de_la_muerte_parte_1}/></div>
+                            <div className="content uno" onClick={ ()=>{NavMovie(8)} }><img src={harry_potter_las_reliquias_de_la_muerte_parte_2}/></div>
                         </div>
                     </div>
                     <button className='btn-carrusel btn-right' onClick={ () => {moveRight(1);} }>

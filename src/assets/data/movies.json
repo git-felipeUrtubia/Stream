@@ -20,7 +20,67 @@
         "url": "https://my-movie.b-cdn.net/harry_potter_la_camara_secreta.mp4"
     },
     {
+        "id": 3,
+        "name": "Harry Potter el prisionero de azkaban",
+        "genero": "Aventura, Fantasia",
+        "anio": 2009,
+        "duracion": "02:39:00",
+        "tipo": "pelicula",
+        "poster": "/src/assets/posters/harry_potter_el_prisionero_de_azkaban.jpg",
+        "url": null
+    },
+    {
+        "id": 4,
+        "name": "Harry Potter y el caliz de fuego",
+        "genero": "Aventura, Fantasia",
+        "anio": 2009,
+        "duracion": "02:39:00",
+        "tipo": "pelicula",
+        "poster": "/src/assets/posters/harry_potter_el_caliz_de_fuego.jpg",
+        "url": "https://my-movie.b-cdn.net/Harry%20Potter%20Y%20El%20C%C3%A1liz%20De%20Fuego.mp4"
+    },
+    {
         "id": 5,
+        "name": "Harry Potter la orden del fenix",
+        "genero": "Aventura, Fantasia",
+        "anio": 2009,
+        "duracion": "02:39:00",
+        "tipo": "pelicula",
+        "poster": "/src/assets/posters/harry_potter_la_orden_del_fenix.jpg",
+        "url": null
+    },
+    {
+        "id": 6,
+        "name": "Harry Potter el misterio del principe",
+        "genero": "Aventura, Fantasia",
+        "anio": 2009,
+        "duracion": "02:39:00",
+        "tipo": "pelicula",
+        "poster": "/src/assets/posters/harry_potter_el_misterio_del_principe.jpg",
+        "url": "https://my-movie.b-cdn.net/Harry%20Potter%20El%20Misterio%20Del%20Principe.mp4"
+    },
+    {
+        "id": 7,
+        "name": "Harry Potter las reliquias de la muerte parte 1",
+        "genero": "Aventura, Fantasia",
+        "anio": 2009,
+        "duracion": "02:39:00",
+        "tipo": "pelicula",
+        "poster": "/src/assets/posters/harry_potter_las_reliquias_de_la_muerte_parte_1.jpg",
+        "url": null
+    },
+    {
+        "id": 8,
+        "name": "Harry Potter las reliquias de la muerte parte 2",
+        "genero": "Aventura, Fantasia",
+        "anio": 2009,
+        "duracion": "02:39:00",
+        "tipo": "pelicula",
+        "poster": "/src/assets/posters/harry_potter_las_reliquias_de_la_muerte_parte_2.jpg",
+        "url": null
+    },
+    {
+        "id": 9,
         "name": "Rapido y Furioso 1",
         "genero": "Accion, Carrera",
         "anio": 2009,
@@ -30,7 +90,7 @@
         "url": "https://my-movie.b-cdn.net/Rapidos%20Y%20Furiosos%201.mp4" 
     },
     {
-        "id": 6,
+        "id": 10,
         "name": "Tokyo Revengers",
         "genero": "Accion, Drama",
         "anio": 2009,

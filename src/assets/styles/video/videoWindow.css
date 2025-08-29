@@ -5,6 +5,17 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    /* background: linear-gradient(to bottom, #1e1e1e, #2b2f3a); */
+    position: relative;
+}
+
+.img-fondo-video {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    object-position: center;
+    position: absolute;
+    z-index: -2;
 }
 
 .content-video {
@@ -81,9 +92,11 @@
     font-weight: 700;
     margin: .5rem 0 .5rem 0;
     padding: 1rem;
-    border-radius: .5rem;
+    border-radius: 1rem;
     color: rgb(255, 255, 255);
-    background-color: rgb(48, 47, 48);
+    background-color: rgba(0, 0, 0, .7);
+    backdrop-filter: blur(5px) saturate(100%);
+
 }
 
 .content-poster-video {
@@ -105,9 +118,6 @@
 
 .card-video {
     width: 55rem;
-    background-color: rgb(20, 20, 20);
-    border-radius: .5rem;
-    box-shadow: .5rem .5rem .7rem rgba(0,0,0,.5);
 }
 
 .title-video {

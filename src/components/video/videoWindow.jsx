@@ -5,6 +5,7 @@ import { ChapterSelector } from "./chapterSelector.jsx";
 import { useParams } from 'react-router-dom';
 import movies from '../../assets/data/movies.json';
 import ArrowBack from '../../assets/icons/arrow-left-circle.svg?react';
+import image_fondo from '../../assets/img/image_background/background_page_video.jpg';
 
 export const Video = () => {
     const [visible, setVisible] = useState(false);   
@@ -43,6 +44,7 @@ export const Video = () => {
     return (
 
         <section className="video-page">
+            <img className='img-fondo-video' src={image_fondo}/>
             <div className="content-video">
                 <button className='btn-volver' onClick={ handleClickBack }>
                     <ArrowBack className="icon-btn-volver"/>
