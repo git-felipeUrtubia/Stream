@@ -51,7 +51,7 @@ export const Body = () => {
     const NavMovie = (id) => {
         nav(`/video/${id}`);
     }
-    
+     
 
     return (
 
