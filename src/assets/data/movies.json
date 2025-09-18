@@ -7,7 +7,7 @@
         "duracion": "02:39:00",
         "tipo": "pelicula",
         "poster": "/src/assets/posters/harry_potter_la_piedra_filosofal.jpg",
-        "url": "https://my-movie.b-cdn.net/harry_potter_el_prisionero_de_azkaban.mp4"
+        "url": "https://misPelis.b-cdn.net/harry_potter_la_piedra_filosofal.mp4"
     },
     {
         "id": 2,
@@ -17,7 +17,7 @@
         "duracion": "02:39:00",
         "tipo": "pelicula",
         "poster": "/src/assets/posters/harry_potter_y_la_camara_secreta.jpg",
-        "url": "https://my-movie.b-cdn.net/harry_potter_la_camara_secreta.mp4"
+        "url": "https://misPelis.b-cdn.net/harry_potter_la_camara_secreta.mp4"
     },
     {
         "id": 3,
@@ -37,7 +37,7 @@
         "duracion": "02:39:00",
         "tipo": "pelicula",
         "poster": "/src/assets/posters/harry_potter_el_caliz_de_fuego.jpg",
-        "url": "https://my-movie.b-cdn.net/Harry%20Potter%20Y%20El%20C%C3%A1liz%20De%20Fuego.mp4"
+        "url": "https://misPelis.b-cdn.net/harry_potter_y_el_caliz_de_fuego.mp4"
     },
     {
         "id": 5,
@@ -57,7 +57,7 @@
         "duracion": "02:39:00",
         "tipo": "pelicula",
         "poster": "/src/assets/posters/harry_potter_el_misterio_del_principe.jpg",
-        "url": "https://my-movie.b-cdn.net/Harry%20Potter%20El%20Misterio%20Del%20Principe.mp4"
+        "url": "https://misPelis.b-cdn.net/harry_potter_el_misterio_del_principe.mp4"
     },
     {
         "id": 7,
